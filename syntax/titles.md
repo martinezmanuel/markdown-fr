@@ -37,6 +37,34 @@ Optionally, you may “close” atx-style headers. This is purely cosmetic — y
 ### This is an H3 ######
 ```
 
+Français
+
+#Titres
+
+Quand nous commençons à écrire un document en markdown , nous avons besoin d'ajouter des titres et des sous titres.
+Markdown suporte deux types d'entête , Setext et atx.
+Les titre de style setext sont "sous ligné" en utilisant des signes égal (pour les titres de premier niveau) et par des tirets (pour les titres de second niveau). Par exemple :
+```
+ceci est un H1
+==============
+ 
+ceci est un h2
+--------------
+```
+Le nombre d'egal ou de tiret qui souligne n'a pas d'importance.
+
+Les titres de style atx utilise entre 1-6 dieses au début de la ligne, correspondant au niveau de titre 1-6 par exemple :
+```m
+# Ceci est un H1
+## Ceci est un H2
+###### Ceci est un H6
+```
+Optionnelement vous pouvez "fermer" les titres de style atx . Ceci est purement esthétique , vous pouvez l'utiliser si vous trouver que cela fait mieux.Le nombre de dieses a la fin n'a pas besoin d'être identique au nombre de dieses du début , c'est le nombre de dieses d'ouverture qui défini le niveau du titre.
+
+```
+# Ceci est un H1 #
+## Ceci est un H2 ##
+#### Ceci est un H4 ##########
 
 ---
 
