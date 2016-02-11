@@ -37,7 +37,7 @@ Optionally, you may “close” atx-style headers. This is purely cosmetic — y
 ### This is an H3 ######
 ```
 
-Français
+Traduction française
 
 #Titres
 
